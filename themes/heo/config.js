@@ -15,34 +15,34 @@ const CONFIG = {
   HEO_HERO_BODY_REVERSE: false,
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: '分享编程',
-  HEO_HERO_TITLE_2: '与思维认知',
-  HEO_HERO_TITLE_3: 'TANGLY1024.COM',
-  HEO_HERO_TITLE_4: '新版上线',
-  HEO_HERO_TITLE_5: 'NotionNext4.0 轻松定制主题',
-  HEO_HERO_TITLE_LINK: 'https://tangly1024.com',
+  HEO_HERO_TITLE_1: 'Thoughts on',
+  HEO_HERO_TITLE_2: 'Intelligence',
+  HEO_HERO_TITLE_3: 'hemanlinks.com',
+  HEO_HERO_TITLE_4: 'Latest Thoughts',
+  HEO_HERO_TITLE_5: 'Importance of preserving private knowledge',
+  HEO_HERO_TITLE_LINK: 'https://hemanlinks.com',
 
   // 英雄区显示三个置顶分类
-  HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
-  HEO_HERO_CATEGORY_2: { title: '热门文章', url: '/tag/热门文章' },
-  HEO_HERO_CATEGORY_3: { title: '实用教程', url: '/tag/实用教程' },
+  HEO_HERO_CATEGORY_1: { title: 'Artificial Intelligence', url: '/tag/AI' },
+  HEO_HERO_CATEGORY_2: { title: 'Random Thoughts', url: '/tag/Thoughts' },
+  HEO_HERO_CATEGORY_3: { title: 'DIY Therapy', url: '/tag/DIY' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
-  HEO_HERO_RECOMMEND_POST_TAG: '推荐',
+  HEO_HERO_RECOMMEND_POST_TAG: 'Pinned',
   HEO_HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: false, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
   //   HERO_RECOMMEND_COVER: 'https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_1280.jpg', // 英雄区右侧图片
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
-    '你好！我是',
-    '🔍 分享与热心帮助',
-    '🤝 专修交互与设计',
-    '🏃 脚踏实地行动派',
-    '🏠 智能家居小能手',
-    '🤖️ 数码科技爱好者',
-    '🧱 团队小组发动机'
+    'Hi, welcome to',
+    '🔍 Explore AI, the future bright',
+    '🤝 Delve into thoughts, both deep and light',
+    '🏃 Share your wisdom, join the quest',
+    '🏠 Discuss and spark, be our guest',
+    '🤖️ Innovate with every thread',
+    '🧱 Journey where great minds have led'
   ],
-  HEO_INFO_CARD_URL: 'https://github.com/tangly1024/NotionNext', // 个人资料底部按钮链接
+  HEO_INFO_CARD_URL: 'https://github.com/hemanoid/', // 个人资料底部按钮链接
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
@@ -101,14 +101,22 @@ const CONFIG = {
       title_2: 'Rhino',
       img_2: '/images/heo/20231ca53fa0b09a3ff1df89acd7515e9516173302.webp',
       color_2: '#1f1f1f'
+    },
+    {
+      title_1: 'Java',
+      img_1: '/images/heo/5e816893731b9f2c530099a2550dda4a.webp',
+      color_1: '#ffffff',
+      title_2: '.NET',
+      img_2: '/images/heo/5b6fde4db5d852.5961952515340580617449.webp',
+      color_2: '#ffffff'
     }
   ],
 
   HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
-  HEO_SOCIAL_CARD_TITLE_1: '交流频道',
-  HEO_SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
-  HEO_SOCIAL_CARD_TITLE_3: '点击加入社群',
-  HEO_SOCIAL_CARD_URL: 'https://docs.tangly1024.com/article/how-to-question',
+  HEO_SOCIAL_CARD_TITLE_1: 'Subscription',
+  HEO_SOCIAL_CARD_TITLE_2: 'Subscribe our content for FREE',
+  HEO_SOCIAL_CARD_TITLE_3: 'Click here to subscribe',
+  HEO_SOCIAL_CARD_URL: 'https://hemanlinks.com/how-to-subscribe',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
